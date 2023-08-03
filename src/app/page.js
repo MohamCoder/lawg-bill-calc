@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <div className="p-4">
       <label className="btn btn-primary">
-        <span>Select an image</span>
+        <span>Select lawg image</span>
         <input type="file" onChange={handleFileChange} className="hidden" />
       </label>
       {isLoading && (
