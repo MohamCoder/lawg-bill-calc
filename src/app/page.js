@@ -71,7 +71,7 @@ export default function Home() {
           <button className="btn mt-2 btn-error" onClick={() => window.my_modal_1.showModal()}>pay lawg bills</button>
           <dialog id="my_modal_1" className="modal">
             <form method="dialog" className="modal-box">
-              <h3 className="font-bold text-lg">well .... your card got declined</h3>
+              <h3 className="font-bold text-lg">well .... your card got declined!!</h3>
               <p className="py-4">The bill collector is coming after you💀💀</p>
               <div className="modal-action">
                 {/* if there is a button in form, it will close the modal */}
